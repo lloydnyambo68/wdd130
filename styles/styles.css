@@ -1,0 +1,56 @@
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+nav {
+    background-color: #333;
+    padding: 1rem;
+}
+
+nav a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+/* Float Profile Image */
+main img {
+    float: right;
+    margin-left: 1rem;
+    border-radius: 10px;
+}
+
+/* Aside Positioning */
+aside {
+    position: relative;
+    margin-top: 2rem;
+}
+
+aside h2 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 0.5rem;
+}
+
+/* Class Selectors */
+
+.box {
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid #333;
+    background-color: #f0f0f0;
+    color: #222;
+}
