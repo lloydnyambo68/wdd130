@@ -1,0 +1,130 @@
+/* rafting.css */
+
+:root {
+    --primary-color: #1d3557;
+    --secondary-color: #457b9d;
+    --accent1-color: #264653;
+    --accent2-color: #f4a261;
+    --heading-font: Georgia, serif;
+    --body-font: Arial, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
+}
+
+/* Header */
+
+header {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    align-items: center;
+}
+
+header img {
+    width: 120px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+/* Hero Section */
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    background-color: rgba(38, 70, 83, 0.7);
+    color: white;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background-color: rgba(244, 162, 97, 0.9);
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+    margin-left: 15px;
+}
+
+/* History & Adventure Sections */
+
+section {
+    text-align: center;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+}
+
+.socialmedia {
+    display: flex;
+}
+
+.socialmedia img {
+    width: 32px;
+    margin-left: 10px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
