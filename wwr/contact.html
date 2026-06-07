@@ -1,10 +1,12 @@
 <!DOCTYPE html>
+
 <html lang="en-US">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    ```
     <title>Contact Us | White Water Rafting</title>
 
     <meta name="description"
@@ -13,10 +15,13 @@
     <meta name="author" content="lloyd nyambo">
 
     <link rel="stylesheet" href="styles/rafting.css">
+    ```
+
 </head>
 
 <body>
 
+    ```
     <header>
         <img src="images/logo.png" alt="White Water Rafting Logo">
 
@@ -30,9 +35,8 @@
 
     <main>
 
-        <h1>Contact Us</h1>
+        <h1>Contact White Water Rafting</h1>
 
-        <!-- COMPANY INFO -->
         <section class="contact-info">
 
             <h2>Company Information</h2>
@@ -47,7 +51,6 @@
 
         </section>
 
-        <!-- EMPLOYEES -->
         <section class="employees">
 
             <h2>Meet Our Team</h2>
@@ -69,7 +72,6 @@
 
         </section>
 
-        <!-- CONTACT FORM -->
         <section class="contact-form">
 
             <h2>Send Us a Message</h2>
@@ -84,26 +86,20 @@
 
                 <p>Purpose of Message:</p>
 
-                <label>
-                    <input type="radio" name="purpose" value="general">
-                    General Inquiry
-                </label>
+                <input type="radio" id="general" name="purpose" value="general">
+                <label for="general">General Inquiry</label>
 
-                <label>
-                    <input type="radio" name="purpose" value="reservation">
-                    Reservation Question
-                </label>
+                <input type="radio" id="reservation" name="purpose" value="reservation">
+                <label for="reservation">Reservation Question</label>
 
-                <label>
-                    <input type="radio" name="purpose" value="suggestion">
-                    Website Suggestion
-                </label>
+                <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                <label for="suggestion">Website Suggestion</label>
 
                 <label for="message">Message</label>
                 <textarea id="message" name="message" rows="5"></textarea>
 
-                <label>
-                    <input type="checkbox" name="newsletter">
+                <input type="checkbox" id="newsletter" name="newsletter">
+                <label for="newsletter">
                     Please subscribe me to the monthly newsletter
                 </label>
 
@@ -117,9 +113,7 @@
 
     <footer>
 
-        <p>
-            &copy; 2026 White Water Rafting | lloyd nyambo
-        </p>
+        <p>&copy; 2026 White Water Rafting | lloyd nyambo</p>
 
         <nav class="socialmedia">
 
@@ -138,6 +132,7 @@
         </nav>
 
     </footer>
+    ```
 
 </body>
 
