@@ -1,26 +1,29 @@
 <!DOCTYPE html>
+
 <html lang="en-US">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>About Us | White Water Rafting</title>
+
+    <title>Home | White Water Rafting</title>
 
     <meta name="description"
-      content="Learn more about our white water rafting adventures, history, and exciting outdoor experiences.">
+      content="Experience thrilling white water rafting adventures with expert guides, safety, and unforgettable river journeys.">
 
     <meta name="author" content="Lloyd Nyambo">
 
     <link rel="stylesheet" href="styles/rafting.css">
+
+
 </head>
 
 <body>
 
-    <!-- Header -->
     <header>
-
         <img src="images/logo.png" alt="White Water Rafting Logo">
+
 
         <nav>
             <a href="index.html">Home</a>
@@ -29,102 +32,79 @@
             <a href="contact.html">Contact Us</a>
         </nav>
 
+
     </header>
 
-    <!-- Main Content -->
     <main>
 
-        <!-- Hero Section -->
-        <div class="hero">
 
+        <!-- HERO SECTION (REQUIRED) -->
+        <section class="hero">
             <img src="images/hero.jpg" alt="White Water Rafting Adventure">
 
-            <h1>White Water Rafting</h1>
+            <div class="hero-text">
+                <h1>Adventure Begins Here</h1>
+                <p>Feel the thrill. Experience the river. Create memories.</p>
+            </div>
+        </section>
 
-            <article>
+        <!-- NEWSLETTER (REQUIRED) -->
+        <section class="newsletter">
+            <h2>Join Our Newsletter</h2>
 
-                <img src="images/client.jpg" alt="Happy rafting client">
+            <form>
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
 
-                <p>
-                    Our mission is to create unforgettable rafting adventures
-                    filled with excitement, safety, teamwork, and lifelong memories.
-                </p>
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
 
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+
+        <!-- CALL TO ACTION (REQUIRED) -->
+        <section class="cta">
+            <h2>Ready for Your Next Adventure?</h2>
+
+            <p>Explore our exciting rafting trips and choose your perfect journey.</p>
+
+            <a href="trips.html" class="btn">View Trips</a>
+        </section>
+
+        <!-- GRID LAYOUT (REQUIRED: NOT SINGLE COLUMN) -->
+        <section class="home-grid">
+
+            <article class="grid-item">
+                <img src="images/hero.jpg" alt="Rafting adventure experience">
+                <h2>Unforgettable Adventures</h2>
+                <p>Enjoy guided rafting experiences on world-class rivers with professional
+                    instructors.</p>
             </article>
 
-        </div>
-
-        <!-- History Section -->
-        <section>
-
-            <h2>History</h2>
-
-            <p>
-                Founded in 2010, White Water Rafting has guided thousands of
-                adventurers through exciting rivers and breathtaking scenery.
-                We are passionate about outdoor experiences and customer safety.
-            </p>
+            <article class="grid-item">
+                <img src="images/client.jpg" alt="Happy rafting clients">
+                <h2>Safe & Family Friendly</h2>
+                <p>We prioritize safety while making sure families and beginners enjoy every moment.
+                </p>
+            </article>
 
         </section>
 
-        <!-- Adventure Section -->
-        <section>
-
-            <h2>Adventure Awaits You!</h2>
-
-            <div class="adventures">
-
-                <figure>
-                    <img src="images/raft1.jpg" alt="Rafting in Los Dientes del Diablo river">
-                    <figcaption>Los Dientes del Diablo</figcaption>
-                </figure>
-
-                <figure>
-                    <img src="images/raft2.jpg" alt="Big Mallard rafting rapid">
-                    <figcaption>Big Mallard</figcaption>
-                </figure>
-
-                <figure>
-                    <img src="images/raft3.jpg" alt="Half day rafting adventure">
-                    <figcaption>Half Day Adventure</figcaption>
-                </figure>
-
-                <figure>
-                    <img src="images/raft4.jpg" alt="Sunset rafting rapids">
-                    <figcaption>Sunset Rapids</figcaption>
-                </figure>
-
-                <figure>
-                    <img src="images/raft5.jpg" alt="Extreme white water rafting adventure">
-                    <figcaption>Extreme White Water</figcaption>
-                </figure>
-
-            </div>
-
-        </section>
 
     </main>
 
-    <!-- Footer -->
     <footer>
+
 
         <p>©2026 White Water Rafting | Lloyd Nyambo</p>
 
         <nav class="socialmedia">
-
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-                <img src="images/facebook.png" alt="Visit us on Facebook">
-            </a>
-
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-                <img src="images/twitter.png" alt="Follow us on Twitter">
-            </a>
-
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-                <img src="images/instagram.png" alt="Follow us on Instagram">
-            </a>
-
+            <a href="https://facebook.com"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="https://twitter.com"><img src="images/twitter.png" alt="Twitter"></a>
+            <a href="https://instagram.com"><img src="images/instagram.png" alt="Instagram"></a>
         </nav>
+
 
     </footer>
 
