@@ -133,3 +133,60 @@ footer {
 .socialmedia img {
     width: 32px;
 }
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.home-grid img {
+    width: 100%;
+}
+
+.trip-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.trip-card img {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.cta {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.cta a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--secondary-color);
+    color: white;
+    text-decoration: none;
+}
+
+.newsletter {
+    text-align: center;
+}
