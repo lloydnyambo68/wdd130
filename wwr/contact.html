@@ -10,21 +10,26 @@
     <meta name="description"
       content="Contact White Water Rafting for bookings, questions, and adventure information. We are here to help you plan your rafting experience.">
 
-    <meta name="author" content="lloyd nyambo">
+    <meta name="author" content="Lloyd Nyambo">
 
-    <link rel="stylesheet" href="styles/rafting.css">
+    <!-- FIXED CSS LINK -->
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 
 <body>
 
+    <!-- HEADER -->
     <header>
         <img src="images/logo.png" alt="White Water Rafting Logo">
 
+        <!-- FIXED NAVIGATION (CONSISTENT ACROSS ALL PAGES) -->
         <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact Us</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
         </nav>
     </header>
 
@@ -32,6 +37,7 @@
 
         <h1>Contact White Water Rafting</h1>
 
+        <!-- CONTACT INFO -->
         <section class="contact-info">
 
             <h2>Company Information</h2>
@@ -40,36 +46,42 @@
             <p><strong>Phone:</strong> +263 777 123 456</p>
             <p><strong>Email:</strong> info@whitewaterrafting.com</p>
 
-            <h3>Find Us on the Zambezi River</h3>
+            <h3>Find Us on the Map</h3>
 
-            <iframe
+            <iframe title="White Water Rafting Location Map"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3829.5!2d25.8353!3d-17.9243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1931a4a1f7b7b7b7%3A0xabcdef1234567890!2sVictoria%20Falls!5e0!3m2!1sen!2szw!4v0000000000000"
               class="map" height="300" loading="lazy" allowfullscreen>
             </iframe>
 
         </section>
 
+        <!-- TEAM SECTION -->
         <section class="employees">
 
             <h2>Meet Our Team</h2>
 
-            <figure>
-                <img src="images/employee1.jpg" alt="River Guide John">
-                <figcaption>John - Lead River Guide</figcaption>
-            </figure>
+            <div class="employee-grid">
 
-            <figure>
-                <img src="images/employee2.jpg" alt="Manager Sarah">
-                <figcaption>Sarah - Operations Manager</figcaption>
-            </figure>
+                <figure class="employee-card">
+                    <img src="images/employee1.jpg" alt="River Guide John">
+                    <figcaption>John - Lead River Guide</figcaption>
+                </figure>
 
-            <figure>
-                <img src="images/employee3.jpg" alt="Support Mike">
-                <figcaption>Mike - Customer Support</figcaption>
-            </figure>
+                <figure class="employee-card">
+                    <img src="images/employee2.jpg" alt="Manager Sarah">
+                    <figcaption>Sarah - Operations Manager</figcaption>
+                </figure>
+
+                <figure class="employee-card">
+                    <img src="images/employee3.jpg" alt="Support Mike">
+                    <figcaption>Mike - Customer Support</figcaption>
+                </figure>
+
+            </div>
 
         </section>
 
+        <!-- CONTACT FORM -->
         <section class="contact-form">
 
             <h2>Send Us a Message</h2>
@@ -94,7 +106,7 @@
                 <label for="suggestion">Website Suggestion</label>
 
                 <label for="message">Message</label>
-                <textarea id="message" name="message" rows="5"></textarea>
+                <textarea id="message" name="message" rows="5" required></textarea>
 
                 <input type="checkbox" id="newsletter" name="newsletter">
                 <label for="newsletter">
@@ -109,21 +121,22 @@
 
     </main>
 
+    <!-- FOOTER -->
     <footer>
 
-        <p>&copy; 2026 White Water Rafting | lloyd nyambo</p>
+        <p>&copy; 2026 White Water Rafting | Lloyd Nyambo</p>
 
         <nav class="socialmedia">
 
-            <a href="https://facebook.com">
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
                 <img src="images/facebook.png" alt="Facebook">
             </a>
 
-            <a href="https://instagram.com">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
                 <img src="images/instagram.png" alt="Instagram">
             </a>
 
-            <a href="https://twitter.com">
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
                 <img src="images/twitter.png" alt="Twitter">
             </a>
 
