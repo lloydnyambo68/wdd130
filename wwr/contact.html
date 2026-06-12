@@ -1,30 +1,24 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
+    <meta name="description"
+      content="Contact White Water Rafting for bookings, inquiries, and adventure information.">
+    <meta name="author" content="Lloyd Nyambo">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Contact Us | White Water Rafting</title>
 
-    <meta name="description"
-      content="Contact White Water Rafting for bookings, questions, and adventure information. We are here to help you plan your rafting experience.">
-
-    <meta name="author" content="Lloyd Nyambo">
-
-    <!-- FIXED CSS LINK -->
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
 <body>
 
-    <!-- HEADER -->
     <header>
-        <img src="images/logo.png" alt="White Water Rafting Logo">
+        <img src="images/logo.png" alt="Rafting Company Logo">
 
-        <!-- FIXED NAVIGATION (CONSISTENT ACROSS ALL PAGES) -->
         <nav>
-            <ul class="nav-links">
+            <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="trips.html">Trips</a></li>
@@ -35,113 +29,102 @@
 
     <main>
 
-        <h1>Contact White Water Rafting</h1>
+        <h1>Contact Us</h1>
 
-        <!-- CONTACT INFO -->
-        <section class="contact-info">
-
+        <section class="company-info">
             <h2>Company Information</h2>
 
-            <p><strong>Address:</strong> Zambezi River Region, Victoria Falls</p>
-            <p><strong>Phone:</strong> +263 777 123 456</p>
+            <p><strong>Address:</strong> 123 River Road, Adventure Valley</p>
+            <p><strong>Phone:</strong> +263 77 123 4567</p>
             <p><strong>Email:</strong> info@whitewaterrafting.com</p>
-
-            <h3>Find Us on the Map</h3>
-
-            <iframe title="White Water Rafting Location Map"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3829.5!2d25.8353!3d-17.9243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1931a4a1f7b7b7b7%3A0xabcdef1234567890!2sVictoria%20Falls!5e0!3m2!1sen!2szw!4v0000000000000"
-              class="map" height="300" loading="lazy" allowfullscreen>
-            </iframe>
-
         </section>
 
-        <!-- TEAM SECTION -->
-        <section class="employees">
+        <section class="map">
+            <h2>Find Us</h2>
 
+            <iframe src="https://www.google.com/maps/embed?pb=" width="100%" height="300"
+              style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+        </section>
+
+        <section class="employees">
             <h2>Meet Our Team</h2>
 
-            <div class="employee-grid">
+            <figure>
+                <img src="images/guide1.jpg" alt="John Smith">
+                <figcaption>John Smith - Lead Guide</figcaption>
+            </figure>
 
-                <figure class="employee-card">
-                    <img src="images/employee1.jpg" alt="River Guide John">
-                    <figcaption>John - Lead River Guide</figcaption>
-                </figure>
+            <figure>
+                <img src="images/guide2.jpg" alt="Sarah Jones">
+                <figcaption>Sarah Jones - Safety Officer</figcaption>
+            </figure>
 
-                <figure class="employee-card">
-                    <img src="images/employee2.jpg" alt="Manager Sarah">
-                    <figcaption>Sarah - Operations Manager</figcaption>
-                </figure>
-
-                <figure class="employee-card">
-                    <img src="images/employee3.jpg" alt="Support Mike">
-                    <figcaption>Mike - Customer Support</figcaption>
-                </figure>
-
-            </div>
-
+            <figure>
+                <img src="images/guide3.jpg" alt="Mike Brown">
+                <figcaption>Mike Brown - Trip Coordinator</figcaption>
+            </figure>
         </section>
 
-        <!-- CONTACT FORM -->
         <section class="contact-form">
-
             <h2>Send Us a Message</h2>
 
-            <form action="#" method="post">
+            <form>
 
-                <label for="name">Full Name</label>
-                <input type="text" id="name" name="name" required>
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required>
 
-                <label for="email">Email Address</label>
+                <label for="email">Email Address:</label>
                 <input type="email" id="email" name="email" required>
 
                 <p>Purpose of Message:</p>
 
-                <input type="radio" id="general" name="purpose" value="general">
-                <label for="general">General Inquiry</label>
+                <label>
+                    <input type="radio" name="purpose" value="general" checked>
+                    General Inquiry
+                </label>
 
-                <input type="radio" id="reservation" name="purpose" value="reservation">
-                <label for="reservation">Reservation Question</label>
+                <label>
+                    <input type="radio" name="purpose" value="reservation">
+                    Reservation Question
+                </label>
 
-                <input type="radio" id="suggestion" name="purpose" value="suggestion">
-                <label for="suggestion">Website Suggestion</label>
+                <label>
+                    <input type="radio" name="purpose" value="website">
+                    Website Suggestion
+                </label>
 
-                <label for="message">Message</label>
+                <label for="message">Message:</label>
                 <textarea id="message" name="message" rows="5" required></textarea>
 
-                <input type="checkbox" id="newsletter" name="newsletter">
-                <label for="newsletter">
+                <label>
+                    <input type="checkbox" name="subscribe">
                     Please subscribe me to the monthly newsletter
                 </label>
 
                 <button type="submit">Send Message</button>
 
             </form>
-
         </section>
 
     </main>
 
-    <!-- FOOTER -->
     <footer>
-
         <p>&copy; 2026 White Water Rafting | Lloyd Nyambo</p>
 
         <nav class="socialmedia">
-
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://facebook.com">
                 <img src="images/facebook.png" alt="Facebook">
             </a>
 
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://twitter.com">
+                <img src="images/twitter.png" alt="LinkedIn">
+            </a>
+
+            <a href="https://instagram.com">
                 <img src="images/instagram.png" alt="Instagram">
             </a>
-
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-                <img src="images/twitter.png" alt="Twitter">
-            </a>
-
         </nav>
-
     </footer>
 
 </body>
